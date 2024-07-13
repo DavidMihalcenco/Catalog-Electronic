@@ -1,0 +1,65 @@
+#addInfrastructureDropdown {
+    position: relative; /* Face ca elementul să fie referențiat pentru poziționarea absolută a opțiunilor */
+}
+
+#addInfrastructureOptions {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #2087b4;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+}
+
+#addInfrastructureOptions li {
+    list-style: none;
+}
+
+#addInfrastructureOptions li a {
+    display: block;
+    padding: 6px 12px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+}
+
+#addInfrastructureOptions li a:hover {
+    background-color: #f0f0f0;
+}
+
+#userDropdown {
+    position: relative;
+}
+
+#userOptions {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #2087b4;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+}
+
+#userOptions li {
+    list-style: none;
+}
+
+#userOptions li a {
+    display: block;
+    padding: 6px 12px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+}
+
+#userOptions li a:hover {
+    background-color: #f0f0f0;
+}

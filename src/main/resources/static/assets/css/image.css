@@ -1,0 +1,13 @@
+/* Stilizare pentru containerul imaginilor */
+.image {
+    width: 100%; /* Asigură că imaginile ocupă întreaga lățime a containerului */
+    height: auto; /* Permite imaginilor să-și păstreze proporțiile originale */
+    overflow: hidden; /* Ascunde porțiunea imaginilor care depășește dimensiunile containerului */
+}
+
+/* Stilizare pentru imaginile în sine */
+.image img {
+    width: 100%; /* Asigură că imaginile ocupă întreaga lățime a containerului */
+    height: auto; /* Permite imaginilor să-și păstreze proporțiile originale */
+    object-fit: cover; /* Redimensionează și decupează imaginile pentru a se potrivi containerului */
+}

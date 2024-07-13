@@ -1,0 +1,44 @@
+.pagination {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.pagination a {
+    color: #2087b4;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #2087b4;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background-color: #2087b4;
+    color: white;
+}
+
+.pagination .active {
+    background-color: #2087b4;
+    color: white;
+}
+
+#page-numbers {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.infrastructure-description {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.infrastructure-description:hover {
+    overflow: visible;
+    white-space: normal;
+    max-width: none;
+}
+
+
+

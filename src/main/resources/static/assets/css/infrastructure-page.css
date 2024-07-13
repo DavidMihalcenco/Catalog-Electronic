@@ -1,0 +1,48 @@
+.infrastructure-container {
+    margin-top: 50px;
+}
+
+.infrastructure-container img {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.infrastructure-details {
+    margin-top: 20px;
+}
+
+.infrastructure-container h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+    background-color: #f9f9f9;
+}
+
+.contact-info div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #2087b4;
+}
+
+.contact-info span {
+    font-size: 18px;
+    color: #000;
+}
